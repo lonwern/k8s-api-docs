@@ -1,7 +1,5 @@
 #!/bin/bash
 
-set -e
-
 export K8S_API_VERSION=$1
 export K8S_API_DOMAIN=kubernetes.io
 export K8S_API_PATH=docs/reference/generated/kubernetes-api/v$K8S_API_VERSION/
